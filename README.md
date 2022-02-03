@@ -2,6 +2,8 @@
 
 POC to explain how to configure and use CORS
 
+Exchange of resources between two different django projects using [django-cors-headers](https://pypi.org/project/django-cors-headers/) and REST Framework
+
 ---
 
 Clone the project
