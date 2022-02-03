@@ -1,0 +1,6 @@
+[submodule "users-groups"]
+	path = users-groups
+	url = ../users-groups
+[submodule "shopping-cart"]
+	path = shopping-cart
+	url = ../shopping-cart
