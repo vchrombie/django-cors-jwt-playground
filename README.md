@@ -33,7 +33,8 @@ $ poetry shell
 (.venv) $ runserver localhost:8000
 ```
 
-The `users-group` project will fectch data from the `shopping-cart` project using the REST API
+The `users-group` project will fetches data from the `shopping-cart` project using the REST API
 - [`get_cart_items` view](https://github.com/vchrombie/users-groups/blob/e18c8da0624eee0880e3c7416dcc4a296d1b0c07/users/views.py#L45)
 - [`cart/` url configuration](https://github.com/vchrombie/users-groups/blob/e18c8da0624eee0880e3c7416dcc4a296d1b0c07/users_groups/urls.py#L33)
 
+![image](https://user-images.githubusercontent.com/25265451/152352965-fe849dcf-cc88-4790-8239-33f1ac3f62a7.png)
