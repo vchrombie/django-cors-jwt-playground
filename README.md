@@ -36,7 +36,22 @@ $ poetry shell
 ```
 
 The `users-group` project will fetches data from the `shopping-cart` project using the REST API
-- [`get_cart_items` view](https://github.com/vchrombie/users-groups/blob/e18c8da0624eee0880e3c7416dcc4a296d1b0c07/users/views.py#L45)
-- [`cart/` url configuration](https://github.com/vchrombie/users-groups/blob/e18c8da0624eee0880e3c7416dcc4a296d1b0c07/users_groups/urls.py#L33)
 
-![image](https://user-images.githubusercontent.com/25265451/152352965-fe849dcf-cc88-4790-8239-33f1ac3f62a7.png)
+`login` using Postman
+```
+POST
+http://127.0.0.1:8000/api/login/
+{
+    "phone_number": "+918186866445",
+    "password": "root"
+}
+```
+![Screenshot from 2022-02-17 20-10-57](https://user-images.githubusercontent.com/25265451/154504866-5751c997-f47b-4342-8714-a2089d50bb9d.png)
+
+`cart view` using Postman
+```
+GET
+http://127.0.0.1:8080/cart/view/
+Authorization Bearer Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwIjoxNjQ1MTEyNDUxLCJpYXQiOjE2NDUxMDg4NTF9.lTqp9_ZQnxhNHtMe38kEqCJzmh5DM7zi9snanX1mfCE
+```
+![Screenshot from 2022-02-17 20-11-19](https://user-images.githubusercontent.com/25265451/154504875-25ac42f1-6c03-4493-a5df-3fbcb992c856.png)
