@@ -1,6 +1,6 @@
 # django-cors-jwt-playground
 
-POC to explain how to configure and use CORS
+POC to explain how to configure and use CORS between two Django microservices ([user management](https://github.com/vchrombie/users-groups) and [shopping cart](https://github.com/vchrombie/shopping-cart))
 
 Exchange of resources between two different django projects using [django-cors-headers](https://pypi.org/project/django-cors-headers/) and REST Framework
 
